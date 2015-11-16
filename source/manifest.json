@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+
+    "name": "BigSite",
+	"description": "Create a minimap of the current site, that currently you're on.",
+	"version": "0.0.1",
+
+	"author": "Mads Cordes",
+	"icons": {
+		"128": "assets/img/icon_128.png"
+	},
+
+	"permissions": [
+		"activeTab"
+	],
+
+    "background": {
+        "scripts": ["assets/js/BigSite.js"]
+    },
+
+	"browser_action": {
+		"default_icon": "assets/img/icon.png",
+        "default_title": "This is a...BigSite"
+	}
+}
